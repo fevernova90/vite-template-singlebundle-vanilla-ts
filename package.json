@@ -1,0 +1,16 @@
+{
+  "name": "vite-singlebundle-template",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "dev-embed": "nodemon dev-server.js",
+    "build": "rimraf dist && tsc && vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.3.2",
+    "vite": "^2.6.4"
+  }
+}
